@@ -23,24 +23,18 @@ class GeneratorResidualBlock(nn.Module):
         self.c2 = nn.Conv2d(hidden_channels, out_channels, kernel_size=ksize, padding=pad)
 
         # hier für bildgröße
-        # self.up = nn.Sequential(nn.ConvTranspose2d(in_channels,in_channels, kernel_size=4, stride=1),
-        #                         nn.ConvTranspose2d(in_channels,out_channels, kernel_size=3, stride=3))
         self.up = nn.ConvTranspose2d(in_channels, out_channels, kernel_size=3, stride=4)
         
         self.b1 = ConditionalBatchNorm2d(in_channels, self.n_classes)
         self.b2 = ConditionalBatchNorm2d(hidden_channels, self.n_classes)
         if self.learnable_sc:
             self.c_sc = nn.Conv2d(in_channels, out_channels, kernel_size=1, padding=0)
-            
-    # def upsample_conv(self, x, conv):
-        # return conv(nn.UpsamplingNearest2d(scale_factor=2)(x))
     
 
     def residual(self, x, label_onehots= None):
         h = x
         h = self.b1(h, label_onehots)
         h = self.activation(h)
-        #h = self.upsample_conv(h, self.c1) if self.upsample else self.c1(h)
         h = self.up(h) if self.upsample else self.c1(h)
         h = self.b2(h, label_onehots)
         h = self.activation(h)
