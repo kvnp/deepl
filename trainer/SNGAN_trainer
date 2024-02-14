@@ -1,5 +1,4 @@
 import torch
-import torch
 import torchvision
 import os
 import pickle
@@ -56,24 +55,6 @@ class trainer():
         
     
     def train(self):
-        # # patch (128x128)    
-        # self.latent_size = 128
-        # save_state_every  = 10
-        # save_sample_every = 10
-
-        # ##############################
-        # #       Hyperparameter       #
-        # ##############################
-        # batch_size      = 16
-        # device          = torch.device('cuda')
-        # n_dis_update    = 5
-        # n_epoch         = 900
-        # lr_g            = 0.001
-        # lr_d            = 0.0001
-        # gp_weight       = 10
-        # ##############################
-
-
         model_G = ZelNet.Generator(self.latent_size, n_classes_g=self.class_num)
         model_D = ZelNet.Discriminator(n_classes_d=self.class_num).to(self.device)
         model_G, model_D = model_G.to(self.device), model_D.to(self.device)
@@ -86,20 +67,13 @@ class trainer():
         optim_G = torch.optim.Adam(model_G.parameters(), lr=self.lr_g, betas=(0.5, 0.999))
         optim_D = torch.optim.Adam(model_D.parameters(), lr=self.lr_d, betas=(0.5, 0.999))
         
-
-        # gan_loss = losses.HingeLoss(batch_size, device)
-        gan_loss = torch.nn.MSELoss()
-        
-
         result = {"d_loss": [], "g_loss": [], "grad_pen": []}
         n = len(self.dataloader)
         
         #################################
         #           training            #
         #################################
-        print("Starting training:")
-        # falls von state aus weitergemacht werden soll
-        
+        print("Starting training:")       
         for epoch in range(self.start_epoch, self.n_epoch):
             log_loss_D, log_loss_G, log_GP = [], [], []
             save_sample_every = self.increase_sample_rate(epoch, save_sample_every)
@@ -115,7 +89,6 @@ class trainer():
 
                 
                 # train D
-                # if i% n_dis_update == 0:
                 if i is not n-1:
                     # fake data
                     labels_fake = Variable(torch.LongTensor(np.random.randint(0, self.class_num, self.batch_size))).to(self.device)

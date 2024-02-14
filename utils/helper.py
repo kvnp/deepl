@@ -3,24 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import json
 from collections import OrderedDict
-import pickle
-
-
-
-def look_at_samplebatch(img_batch, use_cuda= False):
-    counter = 0
-    if use_cuda:
-        img_batch = img_batch.cpu()
-    for raw_image in img_batch:
-        raw_image = raw_image.detach().numpy()
-        print("########Bild",counter,": ", raw_image.shape)
-        # print("imdata: ", test)
-        cv2_image = np.transpose(raw_image, (1, 2, 0))
-        cv2_image = cv2.cvtColor(cv2_image, cv2.COLOR_BGR2RGB)
-        cv2.imshow("bilder",cv2_image)
-        cv2.waitKey(0)
-    quit()
-    
+import pickle   
     
 def remove_prefix(state_dict):
     new_dict = OrderedDict()

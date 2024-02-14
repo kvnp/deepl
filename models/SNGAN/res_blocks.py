@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-# @Date    : 3/26/20
-# @Author  : Rene Breuning
-# @Link    : None
-# @Version : 0.0
-
 import torch.nn as nn
 import torch
 import torch.nn.functional as F

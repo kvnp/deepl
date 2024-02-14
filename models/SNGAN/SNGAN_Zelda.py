@@ -21,13 +21,9 @@ class Generator(nn.Module):
     def forward(self, inputs, y=None):
         x = self.dense(inputs).view(inputs.size(0), 256, 3, 3)
         x = self.block1(x, y)
-        # print("form nach 1:", x.shape)
         x = self.block2(x, y)
-        # print("form nach 2:", x.shape)
         x = self.block3(x, y)
-        # print("form nach 3:", x.shape)
         x = self.bn_out(x, y) if y is not None else self.bn_out(x)
-        # print("form nach 4:", x.shape)
         return self.out(x)
 
 class Discriminator(nn.Module):
