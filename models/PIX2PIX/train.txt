@@ -1,0 +1,600 @@
+epoch:1 loss_d_fake:2e-05 loss_d_real:1.1e-06 fake_acc:1.0 real_acc:1.0
+epoch:1 loss_fool:1.4e-06 loss_g:2.0
+epoch:2 loss_d_fake:1.1e-05 loss_d_real:0.11 fake_acc:1.0 real_acc:0.85
+epoch:2 loss_fool:0.012 loss_g:1.6
+epoch:3 loss_d_fake:0.00021 loss_d_real:1.1e-05 fake_acc:1.0 real_acc:1.0
+epoch:3 loss_fool:0.00019 loss_g:1.3
+epoch:4 loss_d_fake:0.85 loss_d_real:0.023 fake_acc:0.016 real_acc:0.96
+epoch:4 loss_fool:0.028 loss_g:1.1
+epoch:5 loss_d_fake:0.71 loss_d_real:0.016 fake_acc:0.14 real_acc:0.99
+epoch:5 loss_fool:0.042 loss_g:1.1
+epoch:6 loss_d_fake:0.59 loss_d_real:0.0016 fake_acc:0.28 real_acc:1.0
+epoch:6 loss_fool:0.036 loss_g:1.0
+epoch:7 loss_d_fake:0.00057 loss_d_real:5.7e-05 fake_acc:1.0 real_acc:1.0
+epoch:7 loss_fool:0.00013 loss_g:0.96
+epoch:8 loss_d_fake:0.76 loss_d_real:0.0011 fake_acc:0.082 real_acc:1.0
+epoch:8 loss_fool:0.019 loss_g:0.96
+epoch:9 loss_d_fake:0.73 loss_d_real:0.0063 fake_acc:0.14 real_acc:0.99
+epoch:9 loss_fool:0.15 loss_g:1.0
+epoch:10 loss_d_fake:0.84 loss_d_real:0.0016 fake_acc:0.0039 real_acc:1.0
+epoch:10 loss_fool:0.053 loss_g:0.95
+epoch:11 loss_d_fake:0.44 loss_d_real:0.004 fake_acc:0.5 real_acc:1.0
+epoch:11 loss_fool:0.034 loss_g:0.95
+epoch:12 loss_d_fake:0.17 loss_d_real:0.0068 fake_acc:0.79 real_acc:0.99
+epoch:12 loss_fool:0.031 loss_g:0.88
+epoch:13 loss_d_fake:0.82 loss_d_real:0.0063 fake_acc:0.11 real_acc:1.0
+epoch:13 loss_fool:0.12 loss_g:0.97
+epoch:14 loss_d_fake:0.68 loss_d_real:0.0023 fake_acc:0.21 real_acc:1.0
+epoch:14 loss_fool:0.058 loss_g:1.0
+epoch:15 loss_d_fake:0.9 loss_d_real:0.00093 fake_acc:0.057 real_acc:1.0
+epoch:15 loss_fool:0.054 loss_g:0.89
+epoch:16 loss_d_fake:0.85 loss_d_real:8e-05 fake_acc:0.049 real_acc:1.0
+epoch:16 loss_fool:0.1 loss_g:1.1
+epoch:17 loss_d_fake:0.97 loss_d_real:0.021 fake_acc:0.0078 real_acc:0.97
+epoch:17 loss_fool:0.094 loss_g:0.94
+epoch:18 loss_d_fake:0.43 loss_d_real:0.075 fake_acc:0.53 real_acc:0.92
+epoch:18 loss_fool:0.1 loss_g:0.97
+epoch:19 loss_d_fake:0.99 loss_d_real:0.013 fake_acc:0.0 real_acc:0.99
+epoch:19 loss_fool:0.0011 loss_g:1.0
+epoch:20 loss_d_fake:0.99 loss_d_real:0.0022 fake_acc:0.0 real_acc:1.0
+epoch:20 loss_fool:0.00088 loss_g:1.0
+epoch:21 loss_d_fake:0.97 loss_d_real:0.00058 fake_acc:0.0 real_acc:1.0
+epoch:21 loss_fool:0.0016 loss_g:1.1
+epoch:22 loss_d_fake:0.17 loss_d_real:0.002 fake_acc:0.82 real_acc:1.0
+epoch:22 loss_fool:0.027 loss_g:1.2
+epoch:23 loss_d_fake:0.91 loss_d_real:0.00052 fake_acc:0.047 real_acc:1.0
+epoch:23 loss_fool:0.0029 loss_g:0.91
+epoch:24 loss_d_fake:3.5e-08 loss_d_real:0.0003 fake_acc:1.0 real_acc:1.0
+epoch:24 loss_fool:0.00057 loss_g:0.93
+epoch:25 loss_d_fake:0.97 loss_d_real:0.011 fake_acc:0.0 real_acc:0.98
+epoch:25 loss_fool:0.0038 loss_g:0.93
+epoch:26 loss_d_fake:0.015 loss_d_real:0.00013 fake_acc:0.98 real_acc:1.0
+epoch:26 loss_fool:0.00018 loss_g:1.2
+epoch:27 loss_d_fake:0.15 loss_d_real:0.031 fake_acc:0.78 real_acc:0.97
+epoch:27 loss_fool:0.031 loss_g:0.99
+epoch:28 loss_d_fake:0.65 loss_d_real:0.006 fake_acc:0.27 real_acc:1.0
+epoch:28 loss_fool:0.17 loss_g:0.93
+epoch:29 loss_d_fake:0.29 loss_d_real:0.0065 fake_acc:0.59 real_acc:1.0
+epoch:29 loss_fool:0.04 loss_g:0.96
+epoch:30 loss_d_fake:0.96 loss_d_real:0.009 fake_acc:0.0 real_acc:1.0
+epoch:30 loss_fool:0.0083 loss_g:0.92
+epoch:31 loss_d_fake:7.5e-05 loss_d_real:0.0048 fake_acc:1.0 real_acc:1.0
+epoch:31 loss_fool:6.5e-05 loss_g:1.0
+epoch:32 loss_d_fake:0.045 loss_d_real:0.0052 fake_acc:0.94 real_acc:1.0
+epoch:32 loss_fool:7.9e-05 loss_g:1.2
+epoch:33 loss_d_fake:0.52 loss_d_real:0.00072 fake_acc:0.34 real_acc:1.0
+epoch:33 loss_fool:6.1e-05 loss_g:1.1
+epoch:34 loss_d_fake:7.8e-05 loss_d_real:0.00016 fake_acc:1.0 real_acc:1.0
+epoch:34 loss_fool:0.00015 loss_g:1.2
+epoch:35 loss_d_fake:0.12 loss_d_real:0.00065 fake_acc:0.88 real_acc:1.0
+epoch:35 loss_fool:0.0072 loss_g:1.3
+epoch:36 loss_d_fake:0.00016 loss_d_real:0.00084 fake_acc:1.0 real_acc:1.0
+epoch:36 loss_fool:0.001 loss_g:1.1
+epoch:37 loss_d_fake:2.5e-06 loss_d_real:4.3e-06 fake_acc:1.0 real_acc:1.0
+epoch:37 loss_fool:0.0062 loss_g:0.91
+epoch:38 loss_d_fake:5.5e-05 loss_d_real:1.5e-05 fake_acc:1.0 real_acc:1.0
+epoch:38 loss_fool:3e-06 loss_g:0.89
+epoch:39 loss_d_fake:3.7e-05 loss_d_real:2e-07 fake_acc:1.0 real_acc:1.0
+epoch:39 loss_fool:7.3e-07 loss_g:0.87
+epoch:40 loss_d_fake:1.8e-06 loss_d_real:3.8e-07 fake_acc:1.0 real_acc:1.0
+epoch:40 loss_fool:7.3e-06 loss_g:0.88
+epoch:41 loss_d_fake:1.7e-07 loss_d_real:1.2e-07 fake_acc:1.0 real_acc:1.0
+epoch:41 loss_fool:0.00038 loss_g:0.85
+epoch:42 loss_d_fake:5e-10 loss_d_real:0.00025 fake_acc:1.0 real_acc:1.0
+epoch:42 loss_fool:0.059 loss_g:0.9
+epoch:43 loss_d_fake:4.2e-07 loss_d_real:2.2e-08 fake_acc:1.0 real_acc:1.0
+epoch:43 loss_fool:4.6e-06 loss_g:0.86
+epoch:44 loss_d_fake:3.6e-09 loss_d_real:9.3e-08 fake_acc:1.0 real_acc:1.0
+epoch:44 loss_fool:2.8e-07 loss_g:0.87
+epoch:45 loss_d_fake:2.3e-06 loss_d_real:5.6e-07 fake_acc:1.0 real_acc:1.0
+epoch:45 loss_fool:1.1e-06 loss_g:0.9
+epoch:46 loss_d_fake:1e-08 loss_d_real:2.4e-09 fake_acc:1.0 real_acc:1.0
+epoch:46 loss_fool:3.8e-07 loss_g:0.85
+epoch:47 loss_d_fake:4.3e-09 loss_d_real:5.2e-08 fake_acc:1.0 real_acc:1.0
+epoch:47 loss_fool:5.7e-07 loss_g:0.97
+epoch:48 loss_d_fake:2e-08 loss_d_real:2.5e-07 fake_acc:1.0 real_acc:1.0
+epoch:48 loss_fool:4.9e-06 loss_g:0.87
+epoch:49 loss_d_fake:5e-10 loss_d_real:2.3e-10 fake_acc:1.0 real_acc:1.0
+epoch:49 loss_fool:1.7e-07 loss_g:0.87
+epoch:50 loss_d_fake:4.4e-06 loss_d_real:8.5e-10 fake_acc:1.0 real_acc:1.0
+epoch:50 loss_fool:1.7e-08 loss_g:0.88
+epoch:51 loss_d_fake:2.6e-09 loss_d_real:2.1e-09 fake_acc:1.0 real_acc:1.0
+epoch:51 loss_fool:7.8e-07 loss_g:0.85
+epoch:52 loss_d_fake:7.4e-12 loss_d_real:1e-10 fake_acc:1.0 real_acc:1.0
+epoch:52 loss_fool:4e-08 loss_g:0.87
+epoch:53 loss_d_fake:1.9e-11 loss_d_real:2.7e-10 fake_acc:1.0 real_acc:1.0
+epoch:53 loss_fool:3.9e-06 loss_g:0.85
+epoch:54 loss_d_fake:1.4e-10 loss_d_real:6.1e-08 fake_acc:1.0 real_acc:1.0
+epoch:54 loss_fool:6e-07 loss_g:0.89
+epoch:55 loss_d_fake:8.6e-10 loss_d_real:2.1e-09 fake_acc:1.0 real_acc:1.0
+epoch:55 loss_fool:5.7e-07 loss_g:0.85
+epoch:56 loss_d_fake:1e-08 loss_d_real:8.1e-10 fake_acc:1.0 real_acc:1.0
+epoch:56 loss_fool:1.9e-07 loss_g:0.85
+epoch:57 loss_d_fake:8.8e-11 loss_d_real:2.6e-08 fake_acc:1.0 real_acc:1.0
+epoch:57 loss_fool:3.1e-06 loss_g:0.87
+epoch:58 loss_d_fake:1e-11 loss_d_real:3.7e-09 fake_acc:1.0 real_acc:1.0
+epoch:58 loss_fool:9.8e-09 loss_g:0.91
+epoch:59 loss_d_fake:1.1e-11 loss_d_real:4.7e-08 fake_acc:1.0 real_acc:1.0
+epoch:59 loss_fool:2.7e-07 loss_g:0.89
+epoch:60 loss_d_fake:8.9e-11 loss_d_real:3.3e-09 fake_acc:1.0 real_acc:1.0
+epoch:60 loss_fool:1.4e-06 loss_g:0.85
+epoch:61 loss_d_fake:8.9e-10 loss_d_real:1.8e-10 fake_acc:1.0 real_acc:1.0
+epoch:61 loss_fool:3.2e-07 loss_g:0.84
+epoch:62 loss_d_fake:5.4e-10 loss_d_real:8.1e-11 fake_acc:1.0 real_acc:1.0
+epoch:62 loss_fool:3.7e-07 loss_g:0.87
+epoch:63 loss_d_fake:1.7e-09 loss_d_real:4.6e-11 fake_acc:1.0 real_acc:1.0
+epoch:63 loss_fool:2e-07 loss_g:0.85
+epoch:64 loss_d_fake:8.8e-09 loss_d_real:2.9e-11 fake_acc:1.0 real_acc:1.0
+epoch:64 loss_fool:2.4e-07 loss_g:0.85
+epoch:65 loss_d_fake:7.8e-10 loss_d_real:1.6e-08 fake_acc:1.0 real_acc:1.0
+epoch:65 loss_fool:1.4e-07 loss_g:0.84
+epoch:66 loss_d_fake:6.7e-10 loss_d_real:5.9e-10 fake_acc:1.0 real_acc:1.0
+epoch:66 loss_fool:1.8e-08 loss_g:0.83
+epoch:67 loss_d_fake:7.4e-10 loss_d_real:3.3e-10 fake_acc:1.0 real_acc:1.0
+epoch:67 loss_fool:2e-08 loss_g:0.85
+epoch:68 loss_d_fake:1.4e-10 loss_d_real:4.9e-09 fake_acc:1.0 real_acc:1.0
+epoch:68 loss_fool:4.2e-08 loss_g:0.85
+epoch:69 loss_d_fake:2.8e-10 loss_d_real:3.6e-10 fake_acc:1.0 real_acc:1.0
+epoch:69 loss_fool:1.6e-07 loss_g:0.85
+epoch:70 loss_d_fake:1.2e-09 loss_d_real:1.6e-11 fake_acc:1.0 real_acc:1.0
+epoch:70 loss_fool:3.3e-09 loss_g:0.83
+epoch:71 loss_d_fake:2.5e-10 loss_d_real:2.9e-11 fake_acc:1.0 real_acc:1.0
+epoch:71 loss_fool:8.3e-08 loss_g:0.84
+epoch:72 loss_d_fake:5e-10 loss_d_real:9.6e-12 fake_acc:1.0 real_acc:1.0
+epoch:72 loss_fool:9.1e-09 loss_g:0.84
+epoch:73 loss_d_fake:2.3e-10 loss_d_real:1.1e-10 fake_acc:1.0 real_acc:1.0
+epoch:73 loss_fool:8.1e-07 loss_g:0.85
+epoch:74 loss_d_fake:1.2e-10 loss_d_real:5.9e-11 fake_acc:1.0 real_acc:1.0
+epoch:74 loss_fool:1.9e-09 loss_g:0.83
+epoch:75 loss_d_fake:1e-10 loss_d_real:9.4e-12 fake_acc:1.0 real_acc:1.0
+epoch:75 loss_fool:1.4e-08 loss_g:0.83
+epoch:76 loss_d_fake:3.7e-10 loss_d_real:1.1e-12 fake_acc:1.0 real_acc:1.0
+epoch:76 loss_fool:5e-09 loss_g:0.82
+epoch:77 loss_d_fake:2.6e-11 loss_d_real:4.4e-10 fake_acc:1.0 real_acc:1.0
+epoch:77 loss_fool:1.6e-09 loss_g:0.87
+epoch:78 loss_d_fake:1.2e-10 loss_d_real:1.1e-11 fake_acc:1.0 real_acc:1.0
+epoch:78 loss_fool:1.2e-07 loss_g:0.84
+epoch:79 loss_d_fake:4.8e-08 loss_d_real:1.5e-11 fake_acc:1.0 real_acc:1.0
+epoch:79 loss_fool:1.9e-06 loss_g:0.83
+epoch:80 loss_d_fake:2e-09 loss_d_real:2.3e-11 fake_acc:1.0 real_acc:1.0
+epoch:80 loss_fool:1.2e-07 loss_g:0.84
+epoch:81 loss_d_fake:2.6e-06 loss_d_real:4.4e-13 fake_acc:1.0 real_acc:1.0
+epoch:81 loss_fool:1.2e-08 loss_g:0.83
+epoch:82 loss_d_fake:1.5e-06 loss_d_real:2.9e-12 fake_acc:1.0 real_acc:1.0
+epoch:82 loss_fool:5.6e-08 loss_g:0.83
+epoch:83 loss_d_fake:1.3e-06 loss_d_real:1.2e-12 fake_acc:1.0 real_acc:1.0
+epoch:83 loss_fool:6.8e-08 loss_g:0.84
+epoch:84 loss_d_fake:1.4e-08 loss_d_real:4.3e-10 fake_acc:1.0 real_acc:1.0
+epoch:84 loss_fool:4.8e-07 loss_g:0.84
+epoch:85 loss_d_fake:1.6e-08 loss_d_real:7.1e-12 fake_acc:1.0 real_acc:1.0
+epoch:85 loss_fool:4.7e-09 loss_g:0.84
+epoch:86 loss_d_fake:1.3e-11 loss_d_real:1e-10 fake_acc:1.0 real_acc:1.0
+epoch:86 loss_fool:1.5e-08 loss_g:0.82
+epoch:87 loss_d_fake:2.2e-09 loss_d_real:3.7e-11 fake_acc:1.0 real_acc:1.0
+epoch:87 loss_fool:5.9e-08 loss_g:0.83
+epoch:88 loss_d_fake:2.9e-09 loss_d_real:9.6e-12 fake_acc:1.0 real_acc:1.0
+epoch:88 loss_fool:2e-09 loss_g:0.82
+epoch:89 loss_d_fake:5.9e-08 loss_d_real:1.7e-10 fake_acc:1.0 real_acc:1.0
+epoch:89 loss_fool:1.5e-07 loss_g:0.82
+epoch:90 loss_d_fake:3.3e-08 loss_d_real:1.5e-12 fake_acc:1.0 real_acc:1.0
+epoch:90 loss_fool:1.5e-09 loss_g:0.82
+epoch:91 loss_d_fake:2.7e-07 loss_d_real:1.1e-11 fake_acc:1.0 real_acc:1.0
+epoch:91 loss_fool:1.3e-09 loss_g:0.8
+epoch:92 loss_d_fake:1.3e-08 loss_d_real:3.5e-12 fake_acc:1.0 real_acc:1.0
+epoch:92 loss_fool:2.4e-09 loss_g:0.81
+epoch:93 loss_d_fake:4.3e-08 loss_d_real:2.1e-13 fake_acc:1.0 real_acc:1.0
+epoch:93 loss_fool:8.9e-09 loss_g:0.8
+epoch:94 loss_d_fake:1.3e-14 loss_d_real:1e-07 fake_acc:1.0 real_acc:1.0
+epoch:94 loss_fool:4.7e-08 loss_g:0.91
+epoch:95 loss_d_fake:3.9e-10 loss_d_real:2.8e-12 fake_acc:1.0 real_acc:1.0
+epoch:95 loss_fool:1.5e-09 loss_g:0.81
+epoch:96 loss_d_fake:2.1e-07 loss_d_real:4.7e-13 fake_acc:1.0 real_acc:1.0
+epoch:96 loss_fool:2.1e-10 loss_g:0.8
+epoch:97 loss_d_fake:2.3e-11 loss_d_real:9.5e-14 fake_acc:1.0 real_acc:1.0
+epoch:97 loss_fool:1.9e-10 loss_g:0.81
+epoch:98 loss_d_fake:3.1e-10 loss_d_real:4.8e-14 fake_acc:1.0 real_acc:1.0
+epoch:98 loss_fool:7.1e-10 loss_g:0.8
+epoch:99 loss_d_fake:7.7e-11 loss_d_real:5.6e-12 fake_acc:1.0 real_acc:1.0
+epoch:99 loss_fool:7.7e-08 loss_g:0.82
+epoch:100 loss_d_fake:9.9e-12 loss_d_real:2.9e-11 fake_acc:1.0 real_acc:1.0
+epoch:100 loss_fool:5.1e-09 loss_g:0.8
+epoch:101 loss_d_fake:3.3e-11 loss_d_real:3.2e-12 fake_acc:1.0 real_acc:1.0
+epoch:101 loss_fool:6.3e-10 loss_g:0.79
+epoch:102 loss_d_fake:6.6e-11 loss_d_real:1.8e-12 fake_acc:1.0 real_acc:1.0
+epoch:102 loss_fool:6.5e-09 loss_g:0.8
+epoch:103 loss_d_fake:1.2e-09 loss_d_real:3.5e-13 fake_acc:1.0 real_acc:1.0
+epoch:103 loss_fool:7.3e-10 loss_g:0.79
+epoch:104 loss_d_fake:1.2e-11 loss_d_real:1.9e-12 fake_acc:1.0 real_acc:1.0
+epoch:104 loss_fool:8.2e-12 loss_g:0.82
+epoch:105 loss_d_fake:9.3e-13 loss_d_real:2e-11 fake_acc:1.0 real_acc:1.0
+epoch:105 loss_fool:6.9e-09 loss_g:0.8
+epoch:106 loss_d_fake:1.2e-11 loss_d_real:1.9e-12 fake_acc:1.0 real_acc:1.0
+epoch:106 loss_fool:4.6e-10 loss_g:0.79
+epoch:107 loss_d_fake:3.4e-11 loss_d_real:8.6e-13 fake_acc:1.0 real_acc:1.0
+epoch:107 loss_fool:1.3e-07 loss_g:0.79
+epoch:108 loss_d_fake:1.4e-10 loss_d_real:2.8e-11 fake_acc:1.0 real_acc:1.0
+epoch:108 loss_fool:2.9e-10 loss_g:0.8
+epoch:109 loss_d_fake:5.3e-12 loss_d_real:8.9e-11 fake_acc:1.0 real_acc:1.0
+epoch:109 loss_fool:8.4e-11 loss_g:0.81
+epoch:110 loss_d_fake:5.7e-13 loss_d_real:8.2e-11 fake_acc:1.0 real_acc:1.0
+epoch:110 loss_fool:1.1e-10 loss_g:0.8
+epoch:111 loss_d_fake:1.7e-12 loss_d_real:4.4e-11 fake_acc:1.0 real_acc:1.0
+epoch:111 loss_fool:6.8e-10 loss_g:0.79
+epoch:112 loss_d_fake:2.4e-12 loss_d_real:9.5e-12 fake_acc:1.0 real_acc:1.0
+epoch:112 loss_fool:2.2e-10 loss_g:0.78
+epoch:113 loss_d_fake:9.2e-13 loss_d_real:2.2e-09 fake_acc:1.0 real_acc:1.0
+epoch:113 loss_fool:1.0 loss_g:0.85
+epoch:114 loss_d_fake:2.8e-11 loss_d_real:2.2e-12 fake_acc:1.0 real_acc:1.0
+epoch:114 loss_fool:4.2e-11 loss_g:0.79
+epoch:115 loss_d_fake:1.4e-10 loss_d_real:1.2e-12 fake_acc:1.0 real_acc:1.0
+epoch:115 loss_fool:8.3e-10 loss_g:0.79
+epoch:116 loss_d_fake:1.3e-09 loss_d_real:1.4e-12 fake_acc:1.0 real_acc:1.0
+epoch:116 loss_fool:3.9e-13 loss_g:0.82
+epoch:117 loss_d_fake:1.4e-13 loss_d_real:8.6e-12 fake_acc:1.0 real_acc:1.0
+epoch:117 loss_fool:1.1e-07 loss_g:0.8
+epoch:118 loss_d_fake:2.6e-12 loss_d_real:1.4e-13 fake_acc:1.0 real_acc:1.0
+epoch:118 loss_fool:4.5e-09 loss_g:0.8
+epoch:119 loss_d_fake:5e-12 loss_d_real:1.3e-14 fake_acc:1.0 real_acc:1.0
+epoch:119 loss_fool:1.3e-09 loss_g:0.77
+epoch:120 loss_d_fake:6.4e-12 loss_d_real:7.7e-15 fake_acc:1.0 real_acc:1.0
+epoch:120 loss_fool:6.1e-09 loss_g:0.79
+epoch:121 loss_d_fake:2.7e-11 loss_d_real:6.1e-14 fake_acc:1.0 real_acc:1.0
+epoch:121 loss_fool:3e-11 loss_g:0.78
+epoch:122 loss_d_fake:1e-11 loss_d_real:4.1e-14 fake_acc:1.0 real_acc:1.0
+epoch:122 loss_fool:1.2e-09 loss_g:0.79
+epoch:123 loss_d_fake:6e-14 loss_d_real:4.4e-13 fake_acc:1.0 real_acc:1.0
+epoch:123 loss_fool:5.4e-13 loss_g:0.78
+epoch:124 loss_d_fake:6.9e-14 loss_d_real:1.7e-13 fake_acc:1.0 real_acc:1.0
+epoch:124 loss_fool:4.5e-11 loss_g:0.81
+epoch:125 loss_d_fake:2.9e-14 loss_d_real:9.1e-14 fake_acc:1.0 real_acc:1.0
+epoch:125 loss_fool:1.2e-08 loss_g:0.79
+epoch:126 loss_d_fake:8.2e-14 loss_d_real:2.1e-14 fake_acc:1.0 real_acc:1.0
+epoch:126 loss_fool:3.1e-10 loss_g:0.78
+epoch:127 loss_d_fake:2.3e-12 loss_d_real:3.6e-15 fake_acc:1.0 real_acc:1.0
+epoch:127 loss_fool:3.2e-11 loss_g:0.79
+epoch:128 loss_d_fake:1.3e-13 loss_d_real:5.8e-16 fake_acc:1.0 real_acc:1.0
+epoch:128 loss_fool:3.5e-12 loss_g:0.77
+epoch:129 loss_d_fake:2.9e-12 loss_d_real:7.1e-15 fake_acc:1.0 real_acc:1.0
+epoch:129 loss_fool:1.5e-11 loss_g:0.78
+epoch:130 loss_d_fake:2.6e-11 loss_d_real:8.3e-12 fake_acc:1.0 real_acc:1.0
+epoch:130 loss_fool:2.3e-07 loss_g:0.79
+epoch:131 loss_d_fake:5.3e-14 loss_d_real:3.2e-13 fake_acc:1.0 real_acc:1.0
+epoch:131 loss_fool:1.3e-10 loss_g:0.79
+epoch:132 loss_d_fake:2.1e-11 loss_d_real:7.8e-15 fake_acc:1.0 real_acc:1.0
+epoch:132 loss_fool:1.2e-10 loss_g:0.8
+epoch:133 loss_d_fake:1.1e-13 loss_d_real:4.6e-14 fake_acc:1.0 real_acc:1.0
+epoch:133 loss_fool:3.3e-11 loss_g:0.79
+epoch:134 loss_d_fake:1.5e-10 loss_d_real:3.6e-15 fake_acc:1.0 real_acc:1.0
+epoch:134 loss_fool:2.6e-13 loss_g:0.78
+epoch:135 loss_d_fake:1.1e-12 loss_d_real:3.6e-15 fake_acc:1.0 real_acc:1.0
+epoch:135 loss_fool:4.6e-10 loss_g:0.79
+epoch:136 loss_d_fake:2.4e-11 loss_d_real:3.6e-16 fake_acc:1.0 real_acc:1.0
+epoch:136 loss_fool:1.2e-13 loss_g:0.82
+epoch:137 loss_d_fake:3.1e-11 loss_d_real:1.1e-11 fake_acc:1.0 real_acc:1.0
+epoch:137 loss_fool:1e-10 loss_g:0.79
+epoch:138 loss_d_fake:3.3e-11 loss_d_real:8.8e-13 fake_acc:1.0 real_acc:1.0
+epoch:138 loss_fool:1.9e-10 loss_g:0.77
+epoch:139 loss_d_fake:8.1e-12 loss_d_real:8.7e-13 fake_acc:1.0 real_acc:1.0
+epoch:139 loss_fool:1.3e-09 loss_g:0.76
+epoch:140 loss_d_fake:3.3e-13 loss_d_real:9.2e-13 fake_acc:1.0 real_acc:1.0
+epoch:140 loss_fool:1.2e-08 loss_g:0.77
+epoch:141 loss_d_fake:9.6e-12 loss_d_real:1.5e-12 fake_acc:1.0 real_acc:1.0
+epoch:141 loss_fool:9.6e-10 loss_g:0.77
+epoch:142 loss_d_fake:3.8e-13 loss_d_real:3.1e-13 fake_acc:1.0 real_acc:1.0
+epoch:142 loss_fool:8.5e-09 loss_g:0.78
+epoch:143 loss_d_fake:8.6e-13 loss_d_real:3.6e-14 fake_acc:1.0 real_acc:1.0
+epoch:143 loss_fool:1.3e-08 loss_g:0.78
+epoch:144 loss_d_fake:4.3e-10 loss_d_real:2.6e-13 fake_acc:1.0 real_acc:1.0
+epoch:144 loss_fool:1.4e-12 loss_g:0.75
+epoch:145 loss_d_fake:1.4e-12 loss_d_real:3.5e-14 fake_acc:1.0 real_acc:1.0
+epoch:145 loss_fool:4.4e-13 loss_g:0.76
+epoch:146 loss_d_fake:7.5e-12 loss_d_real:6.3e-15 fake_acc:1.0 real_acc:1.0
+epoch:146 loss_fool:1.4e-11 loss_g:0.75
+epoch:147 loss_d_fake:9.7e-12 loss_d_real:8.4e-15 fake_acc:1.0 real_acc:1.0
+epoch:147 loss_fool:1.8e-11 loss_g:0.79
+epoch:148 loss_d_fake:1.9e-12 loss_d_real:8e-15 fake_acc:1.0 real_acc:1.0
+epoch:148 loss_fool:1.1e-11 loss_g:0.73
+epoch:149 loss_d_fake:2.3e-12 loss_d_real:5.4e-15 fake_acc:1.0 real_acc:1.0
+epoch:149 loss_fool:8.2e-08 loss_g:0.76
+epoch:150 loss_d_fake:3.8e-12 loss_d_real:7.5e-15 fake_acc:1.0 real_acc:1.0
+epoch:150 loss_fool:6.2e-12 loss_g:0.77
+epoch:151 loss_d_fake:2.1e-12 loss_d_real:6.8e-15 fake_acc:1.0 real_acc:1.0
+epoch:151 loss_fool:2.1e-08 loss_g:0.75
+epoch:152 loss_d_fake:4e-09 loss_d_real:6.7e-16 fake_acc:1.0 real_acc:1.0
+epoch:152 loss_fool:1.2e-13 loss_g:0.72
+epoch:153 loss_d_fake:2.7e-09 loss_d_real:2.2e-16 fake_acc:1.0 real_acc:1.0
+epoch:153 loss_fool:1.7e-12 loss_g:0.72
+epoch:154 loss_d_fake:1.6e-09 loss_d_real:1.8e-15 fake_acc:1.0 real_acc:1.0
+epoch:154 loss_fool:4.8e-08 loss_g:0.75
+epoch:155 loss_d_fake:1.8e-11 loss_d_real:2.9e-14 fake_acc:1.0 real_acc:1.0
+epoch:155 loss_fool:9.5e-10 loss_g:0.75
+epoch:156 loss_d_fake:2.6e-11 loss_d_real:4.7e-16 fake_acc:1.0 real_acc:1.0
+epoch:156 loss_fool:5.9e-10 loss_g:0.73
+epoch:157 loss_d_fake:3.9e-12 loss_d_real:1.4e-16 fake_acc:1.0 real_acc:1.0
+epoch:157 loss_fool:2.3e-10 loss_g:0.75
+epoch:158 loss_d_fake:3.4e-12 loss_d_real:1.1e-16 fake_acc:1.0 real_acc:1.0
+epoch:158 loss_fool:3.2e-09 loss_g:0.71
+epoch:159 loss_d_fake:3.1e-10 loss_d_real:5.6e-17 fake_acc:1.0 real_acc:1.0
+epoch:159 loss_fool:2.4e-12 loss_g:0.75
+epoch:160 loss_d_fake:1.1e-09 loss_d_real:2.8e-17 fake_acc:1.0 real_acc:1.0
+epoch:160 loss_fool:2.3e-13 loss_g:0.72
+epoch:161 loss_d_fake:1.1e-11 loss_d_real:2.8e-17 fake_acc:1.0 real_acc:1.0
+epoch:161 loss_fool:6.4e-13 loss_g:0.72
+epoch:162 loss_d_fake:8.7e-11 loss_d_real:2.8e-17 fake_acc:1.0 real_acc:1.0
+epoch:162 loss_fool:1.7e-11 loss_g:0.71
+epoch:163 loss_d_fake:2.6e-09 loss_d_real:0.0 fake_acc:1.0 real_acc:1.0
+epoch:163 loss_fool:4.6e-14 loss_g:0.72
+epoch:164 loss_d_fake:4e-11 loss_d_real:2.8e-17 fake_acc:1.0 real_acc:1.0
+epoch:164 loss_fool:1e-13 loss_g:0.71
+epoch:165 loss_d_fake:4.4e-14 loss_d_real:0.0 fake_acc:1.0 real_acc:1.0
+epoch:165 loss_fool:2.7e-13 loss_g:0.71
+epoch:166 loss_d_fake:1.5e-13 loss_d_real:0.0 fake_acc:1.0 real_acc:1.0
+epoch:166 loss_fool:2.5e-11 loss_g:0.71
+epoch:167 loss_d_fake:6.9e-13 loss_d_real:0.0 fake_acc:1.0 real_acc:1.0
+epoch:167 loss_fool:2.2e-11 loss_g:0.69
+epoch:168 loss_d_fake:1.5e-14 loss_d_real:1.9e-14 fake_acc:1.0 real_acc:1.0
+epoch:168 loss_fool:1.8e-09 loss_g:0.7
+epoch:169 loss_d_fake:2.4e-15 loss_d_real:5.6e-17 fake_acc:1.0 real_acc:1.0
+epoch:169 loss_fool:5.5e-12 loss_g:0.72
+epoch:170 loss_d_fake:2.5e-13 loss_d_real:0.0 fake_acc:1.0 real_acc:1.0
+epoch:170 loss_fool:8.1e-14 loss_g:0.71
+epoch:171 loss_d_fake:2.1e-12 loss_d_real:0.0 fake_acc:1.0 real_acc:1.0
+epoch:171 loss_fool:2e-13 loss_g:0.72
+epoch:172 loss_d_fake:1.8e-12 loss_d_real:0.0 fake_acc:1.0 real_acc:1.0
+epoch:172 loss_fool:1.4e-13 loss_g:0.72
+epoch:173 loss_d_fake:9.7e-14 loss_d_real:0.0 fake_acc:1.0 real_acc:1.0
+epoch:173 loss_fool:3.9e-12 loss_g:0.71
+epoch:174 loss_d_fake:7e-12 loss_d_real:0.0 fake_acc:1.0 real_acc:1.0
+epoch:174 loss_fool:1.6e-11 loss_g:0.67
+epoch:175 loss_d_fake:1.1e-11 loss_d_real:0.0 fake_acc:1.0 real_acc:1.0
+epoch:175 loss_fool:2.2e-12 loss_g:0.69
+epoch:176 loss_d_fake:1.4e-14 loss_d_real:2.5e-16 fake_acc:1.0 real_acc:1.0
+epoch:176 loss_fool:2.1e-13 loss_g:0.7
+epoch:177 loss_d_fake:1.4e-13 loss_d_real:2.8e-17 fake_acc:1.0 real_acc:1.0
+epoch:177 loss_fool:1.8e-11 loss_g:0.71
+epoch:178 loss_d_fake:1e-13 loss_d_real:2.8e-17 fake_acc:1.0 real_acc:1.0
+epoch:178 loss_fool:5.9e-10 loss_g:0.72
+epoch:179 loss_d_fake:7.7e-13 loss_d_real:2.8e-17 fake_acc:1.0 real_acc:1.0
+epoch:179 loss_fool:4.7e-12 loss_g:0.69
+epoch:180 loss_d_fake:5.9e-10 loss_d_real:5.2e-15 fake_acc:1.0 real_acc:1.0
+epoch:180 loss_fool:2.6e-11 loss_g:0.72
+epoch:181 loss_d_fake:2.8e-10 loss_d_real:5.8e-16 fake_acc:1.0 real_acc:1.0
+epoch:181 loss_fool:1.5e-11 loss_g:0.69
+epoch:182 loss_d_fake:2.5e-13 loss_d_real:1.6e-14 fake_acc:1.0 real_acc:1.0
+epoch:182 loss_fool:3.3e-11 loss_g:0.68
+epoch:183 loss_d_fake:1.4e-13 loss_d_real:5.1e-15 fake_acc:1.0 real_acc:1.0
+epoch:183 loss_fool:8.3e-11 loss_g:0.68
+epoch:184 loss_d_fake:4.6e-15 loss_d_real:2e-15 fake_acc:1.0 real_acc:1.0
+epoch:184 loss_fool:1.1e-11 loss_g:0.69
+epoch:185 loss_d_fake:7.3e-14 loss_d_real:7.2e-16 fake_acc:1.0 real_acc:1.0
+epoch:185 loss_fool:1.5e-11 loss_g:0.69
+epoch:186 loss_d_fake:5.3e-16 loss_d_real:3.6e-16 fake_acc:1.0 real_acc:1.0
+epoch:186 loss_fool:1.5e-11 loss_g:0.73
+epoch:187 loss_d_fake:1.3e-13 loss_d_real:2.8e-17 fake_acc:1.0 real_acc:1.0
+epoch:187 loss_fool:1.1e-13 loss_g:0.67
+epoch:188 loss_d_fake:2.3e-12 loss_d_real:5.6e-17 fake_acc:1.0 real_acc:1.0
+epoch:188 loss_fool:3.7e-13 loss_g:0.68
+epoch:189 loss_d_fake:1.2e-16 loss_d_real:8e-16 fake_acc:1.0 real_acc:1.0
+epoch:189 loss_fool:7.2e-13 loss_g:0.67
+epoch:190 loss_d_fake:1.4e-15 loss_d_real:8e-16 fake_acc:1.0 real_acc:1.0
+epoch:190 loss_fool:3.8e-08 loss_g:0.69
+epoch:191 loss_d_fake:4.2e-14 loss_d_real:5.6e-16 fake_acc:1.0 real_acc:1.0
+epoch:191 loss_fool:1.7e-13 loss_g:0.68
+epoch:192 loss_d_fake:1.5e-12 loss_d_real:1.2e-14 fake_acc:1.0 real_acc:1.0
+epoch:192 loss_fool:2.6e-12 loss_g:0.71
+epoch:193 loss_d_fake:4.6e-14 loss_d_real:2.9e-15 fake_acc:1.0 real_acc:1.0
+epoch:193 loss_fool:5.2e-12 loss_g:0.71
+epoch:194 loss_d_fake:1.4e-14 loss_d_real:1e-15 fake_acc:1.0 real_acc:1.0
+epoch:194 loss_fool:1.1e-13 loss_g:0.69
+epoch:195 loss_d_fake:2.4e-14 loss_d_real:1e-15 fake_acc:1.0 real_acc:1.0
+epoch:195 loss_fool:4.6e-12 loss_g:0.68
+epoch:196 loss_d_fake:1.4e-13 loss_d_real:1e-15 fake_acc:1.0 real_acc:1.0
+epoch:196 loss_fool:9e-13 loss_g:0.69
+epoch:197 loss_d_fake:9.9e-15 loss_d_real:1e-15 fake_acc:1.0 real_acc:1.0
+epoch:197 loss_fool:4.2e-13 loss_g:0.68
+epoch:198 loss_d_fake:3.1e-12 loss_d_real:2.8e-17 fake_acc:1.0 real_acc:1.0
+epoch:198 loss_fool:2.8e-15 loss_g:0.71
+epoch:199 loss_d_fake:1.4e-12 loss_d_real:2.8e-17 fake_acc:1.0 real_acc:1.0
+epoch:199 loss_fool:3.1e-14 loss_g:0.69
+epoch:200 loss_d_fake:1.3e-11 loss_d_real:2.8e-17 fake_acc:1.0 real_acc:1.0
+epoch:200 loss_fool:1.1e-15 loss_g:0.69
+epoch:201 loss_d_fake:1.3e-13 loss_d_real:1.1e-13 fake_acc:1.0 real_acc:1.0
+epoch:201 loss_fool:1.3e-12 loss_g:0.67
+epoch:202 loss_d_fake:5.3e-13 loss_d_real:2.1e-14 fake_acc:1.0 real_acc:1.0
+epoch:202 loss_fool:4.9e-12 loss_g:0.68
+epoch:203 loss_d_fake:2.2e-14 loss_d_real:1.9e-14 fake_acc:1.0 real_acc:1.0
+epoch:203 loss_fool:2e-10 loss_g:0.66
+epoch:204 loss_d_fake:2.8e-12 loss_d_real:2.1e-15 fake_acc:1.0 real_acc:1.0
+epoch:204 loss_fool:6.9e-14 loss_g:0.67
+epoch:205 loss_d_fake:7.3e-14 loss_d_real:2.1e-15 fake_acc:1.0 real_acc:1.0
+epoch:205 loss_fool:7e-14 loss_g:0.66
+epoch:206 loss_d_fake:4.5e-13 loss_d_real:2.1e-15 fake_acc:1.0 real_acc:1.0
+epoch:206 loss_fool:3.3e-12 loss_g:0.72
+epoch:207 loss_d_fake:6.7e-16 loss_d_real:1.8e-14 fake_acc:1.0 real_acc:1.0
+epoch:207 loss_fool:7e-10 loss_g:0.69
+epoch:208 loss_d_fake:1.8e-09 loss_d_real:2.8e-17 fake_acc:1.0 real_acc:1.0
+epoch:208 loss_fool:2.3e-14 loss_g:0.67
+epoch:209 loss_d_fake:1.9e-13 loss_d_real:8.5e-15 fake_acc:1.0 real_acc:1.0
+epoch:209 loss_fool:3.1e-12 loss_g:0.68
+epoch:210 loss_d_fake:4e-16 loss_d_real:2.7e-15 fake_acc:1.0 real_acc:1.0
+epoch:210 loss_fool:9.7e-12 loss_g:0.7
+epoch:211 loss_d_fake:1.5e-14 loss_d_real:9.4e-16 fake_acc:1.0 real_acc:1.0
+epoch:211 loss_fool:1.2e-11 loss_g:0.68
+epoch:212 loss_d_fake:4.2e-14 loss_d_real:9.4e-16 fake_acc:1.0 real_acc:1.0
+epoch:212 loss_fool:4.5e-12 loss_g:0.69
+epoch:213 loss_d_fake:3.1e-14 loss_d_real:5.6e-16 fake_acc:1.0 real_acc:1.0
+epoch:213 loss_fool:9.7e-12 loss_g:0.66
+epoch:214 loss_d_fake:2e-14 loss_d_real:5.6e-16 fake_acc:1.0 real_acc:1.0
+epoch:214 loss_fool:4.1e-12 loss_g:0.66
+epoch:215 loss_d_fake:9.6e-15 loss_d_real:5.6e-16 fake_acc:1.0 real_acc:1.0
+epoch:215 loss_fool:1.2e-12 loss_g:0.66
+epoch:216 loss_d_fake:2e-14 loss_d_real:5.6e-16 fake_acc:1.0 real_acc:1.0
+epoch:216 loss_fool:9e-13 loss_g:0.67
+epoch:217 loss_d_fake:1.2e-14 loss_d_real:5.6e-16 fake_acc:1.0 real_acc:1.0
+epoch:217 loss_fool:6.1e-13 loss_g:0.67
+epoch:218 loss_d_fake:3e-15 loss_d_real:9.9e-12 fake_acc:1.0 real_acc:1.0
+epoch:218 loss_fool:1.4e-11 loss_g:0.66
+epoch:219 loss_d_fake:3.6e-13 loss_d_real:9.4e-16 fake_acc:1.0 real_acc:1.0
+epoch:219 loss_fool:9.3e-13 loss_g:0.66
+epoch:220 loss_d_fake:1.5e-12 loss_d_real:1.2e-15 fake_acc:1.0 real_acc:1.0
+epoch:220 loss_fool:5.7e-12 loss_g:0.66
+epoch:221 loss_d_fake:7.8e-13 loss_d_real:9.4e-16 fake_acc:1.0 real_acc:1.0
+epoch:221 loss_fool:2.6e-13 loss_g:0.66
+epoch:222 loss_d_fake:1.4e-14 loss_d_real:9.4e-16 fake_acc:1.0 real_acc:1.0
+epoch:222 loss_fool:5.2e-13 loss_g:0.66
+epoch:223 loss_d_fake:2.3e-10 loss_d_real:2.5e-15 fake_acc:1.0 real_acc:1.0
+epoch:223 loss_fool:7.5e-14 loss_g:0.66
+epoch:224 loss_d_fake:7.4e-10 loss_d_real:1.9e-15 fake_acc:1.0 real_acc:1.0
+epoch:224 loss_fool:8.7e-11 loss_g:0.67
+epoch:225 loss_d_fake:6.9e-11 loss_d_real:2e-15 fake_acc:1.0 real_acc:1.0
+epoch:225 loss_fool:1.8e-15 loss_g:0.66
+epoch:226 loss_d_fake:1.4e-11 loss_d_real:4.7e-16 fake_acc:1.0 real_acc:1.0
+epoch:226 loss_fool:7.4e-12 loss_g:0.66
+epoch:227 loss_d_fake:8.6e-11 loss_d_real:4.7e-16 fake_acc:1.0 real_acc:1.0
+epoch:227 loss_fool:1.1e-14 loss_g:0.67
+epoch:228 loss_d_fake:4.8e-12 loss_d_real:9.4e-16 fake_acc:1.0 real_acc:1.0
+epoch:228 loss_fool:1.2e-11 loss_g:0.67
+epoch:229 loss_d_fake:1.9e-18 loss_d_real:8e-15 fake_acc:1.0 real_acc:1.0
+epoch:229 loss_fool:1.8e-10 loss_g:0.66
+epoch:230 loss_d_fake:1.9e-08 loss_d_real:2.4e-15 fake_acc:1.0 real_acc:1.0
+epoch:230 loss_fool:8e-15 loss_g:0.66
+epoch:231 loss_d_fake:6e-08 loss_d_real:5.6e-16 fake_acc:1.0 real_acc:1.0
+epoch:231 loss_fool:1.5e-14 loss_g:0.66
+epoch:232 loss_d_fake:2.2e-14 loss_d_real:4.4e-15 fake_acc:1.0 real_acc:1.0
+epoch:232 loss_fool:1.2e-12 loss_g:0.66
+epoch:233 loss_d_fake:1.3e-12 loss_d_real:7.7e-15 fake_acc:1.0 real_acc:1.0
+epoch:233 loss_fool:1.2e-12 loss_g:0.66
+epoch:234 loss_d_fake:4.5e-12 loss_d_real:4.1e-15 fake_acc:1.0 real_acc:1.0
+epoch:234 loss_fool:7.1e-11 loss_g:0.66
+epoch:235 loss_d_fake:3.9e-12 loss_d_real:1.8e-15 fake_acc:1.0 real_acc:1.0
+epoch:235 loss_fool:4.7e-10 loss_g:0.66
+epoch:236 loss_d_fake:1.5e-10 loss_d_real:4.7e-16 fake_acc:1.0 real_acc:1.0
+epoch:236 loss_fool:8.5e-11 loss_g:0.65
+epoch:237 loss_d_fake:3.5e-11 loss_d_real:4.7e-16 fake_acc:1.0 real_acc:1.0
+epoch:237 loss_fool:7.5e-10 loss_g:0.65
+epoch:238 loss_d_fake:1.8e-10 loss_d_real:2.8e-16 fake_acc:1.0 real_acc:1.0
+epoch:238 loss_fool:5.3e-13 loss_g:0.65
+epoch:239 loss_d_fake:3.6e-11 loss_d_real:2.8e-16 fake_acc:1.0 real_acc:1.0
+epoch:239 loss_fool:4.4e-12 loss_g:0.64
+epoch:240 loss_d_fake:2.1e-09 loss_d_real:2.8e-16 fake_acc:1.0 real_acc:1.0
+epoch:240 loss_fool:9.8e-12 loss_g:0.65
+epoch:241 loss_d_fake:1e-15 loss_d_real:8.7e-12 fake_acc:1.0 real_acc:1.0
+epoch:241 loss_fool:8.5e-10 loss_g:0.65
+epoch:242 loss_d_fake:2.6e-16 loss_d_real:1.1e-13 fake_acc:1.0 real_acc:1.0
+epoch:242 loss_fool:3.9e-14 loss_g:0.67
+epoch:243 loss_d_fake:4.3e-14 loss_d_real:2.1e-14 fake_acc:1.0 real_acc:1.0
+epoch:243 loss_fool:2.7e-12 loss_g:0.66
+epoch:244 loss_d_fake:5.1e-08 loss_d_real:0.0 fake_acc:1.0 real_acc:1.0
+epoch:244 loss_fool:1.4e-16 loss_g:0.66
+epoch:245 loss_d_fake:2.3e-10 loss_d_real:5.6e-17 fake_acc:1.0 real_acc:1.0
+epoch:245 loss_fool:7e-13 loss_g:0.65
+epoch:246 loss_d_fake:5.4e-10 loss_d_real:2.8e-17 fake_acc:1.0 real_acc:1.0
+epoch:246 loss_fool:8.2e-13 loss_g:0.67
+epoch:247 loss_d_fake:5.1e-11 loss_d_real:0.0 fake_acc:1.0 real_acc:1.0
+epoch:247 loss_fool:1.6e-12 loss_g:0.64
+epoch:248 loss_d_fake:8.7e-13 loss_d_real:2.8e-17 fake_acc:1.0 real_acc:1.0
+epoch:248 loss_fool:1.4e-14 loss_g:0.64
+epoch:249 loss_d_fake:1.7e-12 loss_d_real:1.4e-16 fake_acc:1.0 real_acc:1.0
+epoch:249 loss_fool:8.6e-13 loss_g:0.67
+epoch:250 loss_d_fake:1.8e-12 loss_d_real:1.4e-16 fake_acc:1.0 real_acc:1.0
+epoch:250 loss_fool:6.8e-12 loss_g:0.65
+epoch:251 loss_d_fake:5.3e-11 loss_d_real:2.8e-17 fake_acc:1.0 real_acc:1.0
+epoch:251 loss_fool:3e-13 loss_g:0.63
+epoch:252 loss_d_fake:5e-09 loss_d_real:0.0 fake_acc:1.0 real_acc:1.0
+epoch:252 loss_fool:2.4e-15 loss_g:0.69
+epoch:253 loss_d_fake:1.5e-13 loss_d_real:5.6e-17 fake_acc:1.0 real_acc:1.0
+epoch:253 loss_fool:7e-11 loss_g:0.65
+epoch:254 loss_d_fake:4.7e-14 loss_d_real:0.0 fake_acc:1.0 real_acc:1.0
+epoch:254 loss_fool:6.7e-13 loss_g:0.66
+epoch:255 loss_d_fake:1.8e-14 loss_d_real:0.0 fake_acc:1.0 real_acc:1.0
+epoch:255 loss_fool:4.2e-11 loss_g:0.67
+epoch:256 loss_d_fake:1e-13 loss_d_real:1.4e-16 fake_acc:1.0 real_acc:1.0
+epoch:256 loss_fool:9.4e-16 loss_g:0.65
+epoch:257 loss_d_fake:2.7e-17 loss_d_real:2.8e-17 fake_acc:1.0 real_acc:1.0
+epoch:257 loss_fool:3.5e-15 loss_g:0.66
+epoch:258 loss_d_fake:4.4e-15 loss_d_real:2.8e-17 fake_acc:1.0 real_acc:1.0
+epoch:258 loss_fool:1.6e-14 loss_g:0.64
+epoch:259 loss_d_fake:1.4e-16 loss_d_real:2.8e-17 fake_acc:1.0 real_acc:1.0
+epoch:259 loss_fool:5.7e-13 loss_g:0.65
+epoch:260 loss_d_fake:1.7e-13 loss_d_real:0.0 fake_acc:1.0 real_acc:1.0
+epoch:260 loss_fool:6.1e-15 loss_g:0.63
+epoch:261 loss_d_fake:4.1e-18 loss_d_real:2.5e-15 fake_acc:1.0 real_acc:1.0
+epoch:261 loss_fool:1.1e-15 loss_g:0.71
+epoch:262 loss_d_fake:1.1e-18 loss_d_real:2.5e-15 fake_acc:1.0 real_acc:1.0
+epoch:262 loss_fool:1.4e-12 loss_g:0.64
+epoch:263 loss_d_fake:2.4e-14 loss_d_real:0.0 fake_acc:1.0 real_acc:1.0
+epoch:263 loss_fool:2.8e-17 loss_g:0.65
+epoch:264 loss_d_fake:4.5e-15 loss_d_real:0.0 fake_acc:1.0 real_acc:1.0
+epoch:264 loss_fool:3.6e-16 loss_g:0.65
+epoch:265 loss_d_fake:2.2e-12 loss_d_real:0.0 fake_acc:1.0 real_acc:1.0
+epoch:265 loss_fool:1.8e-15 loss_g:0.64
+epoch:266 loss_d_fake:1e-12 loss_d_real:0.0 fake_acc:1.0 real_acc:1.0
+epoch:266 loss_fool:8e-16 loss_g:0.66
+epoch:267 loss_d_fake:1.4e-12 loss_d_real:0.0 fake_acc:1.0 real_acc:1.0
+epoch:267 loss_fool:3.1e-15 loss_g:0.65
+epoch:268 loss_d_fake:1.5e-13 loss_d_real:0.0 fake_acc:1.0 real_acc:1.0
+epoch:268 loss_fool:5.1e-14 loss_g:0.64
+epoch:269 loss_d_fake:0.0028 loss_d_real:5.6e-17 fake_acc:0.99 real_acc:1.0
+epoch:269 loss_fool:8.4e-14 loss_g:0.64
+epoch:270 loss_d_fake:3.5e-13 loss_d_real:0.0 fake_acc:1.0 real_acc:1.0
+epoch:270 loss_fool:2.8e-17 loss_g:0.65
+epoch:271 loss_d_fake:5.8e-15 loss_d_real:0.0 fake_acc:1.0 real_acc:1.0
+epoch:271 loss_fool:5.6e-17 loss_g:0.65
+epoch:272 loss_d_fake:9.1e-15 loss_d_real:0.0 fake_acc:1.0 real_acc:1.0
+epoch:272 loss_fool:1.4e-16 loss_g:0.64
+epoch:273 loss_d_fake:5.9e-14 loss_d_real:0.0 fake_acc:1.0 real_acc:1.0
+epoch:273 loss_fool:1.3e-14 loss_g:0.64
+epoch:274 loss_d_fake:1.1e-12 loss_d_real:0.0 fake_acc:1.0 real_acc:1.0
+epoch:274 loss_fool:8.5e-15 loss_g:0.64
+epoch:275 loss_d_fake:2.1e-13 loss_d_real:0.0 fake_acc:1.0 real_acc:1.0
+epoch:275 loss_fool:2.4e-15 loss_g:0.65
+epoch:276 loss_d_fake:1.1e-12 loss_d_real:0.0 fake_acc:1.0 real_acc:1.0
+epoch:276 loss_fool:3.1e-13 loss_g:0.65
+epoch:277 loss_d_fake:3.4e-15 loss_d_real:0.0 fake_acc:1.0 real_acc:1.0
+epoch:277 loss_fool:9.8e-15 loss_g:0.64
+epoch:278 loss_d_fake:5.2e-15 loss_d_real:0.0 fake_acc:1.0 real_acc:1.0
+epoch:278 loss_fool:1.3e-13 loss_g:0.65
+epoch:279 loss_d_fake:3.9e-15 loss_d_real:0.0 fake_acc:1.0 real_acc:1.0
+epoch:279 loss_fool:7.2e-15 loss_g:0.64
+epoch:280 loss_d_fake:5.5e-15 loss_d_real:0.0 fake_acc:1.0 real_acc:1.0
+epoch:280 loss_fool:3.6e-12 loss_g:0.64
+epoch:281 loss_d_fake:3.4e-15 loss_d_real:0.0 fake_acc:1.0 real_acc:1.0
+epoch:281 loss_fool:3.5e-13 loss_g:0.63
+epoch:282 loss_d_fake:5.7e-14 loss_d_real:0.0 fake_acc:1.0 real_acc:1.0
+epoch:282 loss_fool:1.2e-14 loss_g:0.64
+epoch:283 loss_d_fake:3.8e-09 loss_d_real:5.6e-17 fake_acc:1.0 real_acc:1.0
+epoch:283 loss_fool:6.8e-15 loss_g:0.66
+epoch:284 loss_d_fake:7.3e-10 loss_d_real:0.0 fake_acc:1.0 real_acc:1.0
+epoch:284 loss_fool:3.6e-16 loss_g:0.65
+epoch:285 loss_d_fake:5.3e-12 loss_d_real:0.0 fake_acc:1.0 real_acc:1.0
+epoch:285 loss_fool:6.9e-16 loss_g:0.65
+epoch:286 loss_d_fake:9.5e-13 loss_d_real:0.0 fake_acc:1.0 real_acc:1.0
+epoch:286 loss_fool:5.6e-17 loss_g:0.65
+epoch:287 loss_d_fake:2.7e-12 loss_d_real:0.0 fake_acc:1.0 real_acc:1.0
+epoch:287 loss_fool:2.2e-16 loss_g:0.65
+epoch:288 loss_d_fake:3.2e-11 loss_d_real:0.0 fake_acc:1.0 real_acc:1.0
+epoch:288 loss_fool:4.1e-15 loss_g:0.68
+epoch:289 loss_d_fake:1.6e-12 loss_d_real:0.0 fake_acc:1.0 real_acc:1.0
+epoch:289 loss_fool:9.4e-16 loss_g:0.65
+epoch:290 loss_d_fake:3.5e-12 loss_d_real:0.0 fake_acc:1.0 real_acc:1.0
+epoch:290 loss_fool:1e-13 loss_g:0.63
+epoch:291 loss_d_fake:5.2e-11 loss_d_real:0.0 fake_acc:1.0 real_acc:1.0
+epoch:291 loss_fool:7.9e-15 loss_g:0.65
+epoch:292 loss_d_fake:2.1e-12 loss_d_real:0.0 fake_acc:1.0 real_acc:1.0
+epoch:292 loss_fool:4.7e-15 loss_g:0.65
+epoch:293 loss_d_fake:7.1e-12 loss_d_real:0.0 fake_acc:1.0 real_acc:1.0
+epoch:293 loss_fool:8.2e-12 loss_g:0.67
+epoch:294 loss_d_fake:4.2e-12 loss_d_real:0.0 fake_acc:1.0 real_acc:1.0
+epoch:294 loss_fool:5.3e-13 loss_g:0.64
+epoch:295 loss_d_fake:4e-12 loss_d_real:0.0 fake_acc:1.0 real_acc:1.0
+epoch:295 loss_fool:1.1e-14 loss_g:0.66
+epoch:296 loss_d_fake:9.3e-12 loss_d_real:0.0 fake_acc:1.0 real_acc:1.0
+epoch:296 loss_fool:1.4e-14 loss_g:0.65
+epoch:297 loss_d_fake:1.1e-11 loss_d_real:0.0 fake_acc:1.0 real_acc:1.0
+epoch:297 loss_fool:2.2e-16 loss_g:0.65
+epoch:298 loss_d_fake:2.5e-11 loss_d_real:0.0 fake_acc:1.0 real_acc:1.0
+epoch:298 loss_fool:6.9e-16 loss_g:0.67
+epoch:299 loss_d_fake:5.2e-12 loss_d_real:0.0 fake_acc:1.0 real_acc:1.0
+epoch:299 loss_fool:3.9e-13 loss_g:0.65
+epoch:300 loss_d_fake:7.6e-12 loss_d_real:0.0 fake_acc:1.0 real_acc:1.0
+epoch:300 loss_fool:2.1e-14 loss_g:0.66
