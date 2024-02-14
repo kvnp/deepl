@@ -1,9 +1,8 @@
 import torch
 from torch import nn
 import torch.nn.functional as F
-from models.basic_module import DiscriminatorSNResidualBlock, SNEmbedding
 from models.SNGAN.res_blocks import GeneratorResidualBlock, DiscriminatorSNResidualBlock
-from models.SNGAN.core_layers import ConditionalBatchNorm2d
+from models.SNGAN.core_modules import ConditionalBatchNorm2d, SNEmbedding
 
 class Generator(nn.Module):
     def __init__(self, latent_size, n_classes_g=0):

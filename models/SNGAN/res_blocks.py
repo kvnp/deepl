@@ -7,7 +7,7 @@
 import torch.nn as nn
 import torch
 import torch.nn.functional as F
-from models.SNGAN.core_layers import SpectralNorm, ConditionalBatchNorm2d
+from models.SNGAN.core_modules import init_xavier_uniform, SpectralNorm, ConditionalBatchNorm2d
 
 class GeneratorResidualBlock(nn.Module):
     def __init__(self, in_channels, out_channels, hidden_channels=None, ksize=3, pad=1,
@@ -43,7 +43,6 @@ class GeneratorResidualBlock(nn.Module):
 
     def shortcut(self, x):
         if self.learnable_sc:
-            # x = self.upsample_conv(x, self.c_sc) if self.upsample else self.c_sc(x)
             x= self.up(x) if self.upsample else self.c_sc(x)
             return x
         else:
