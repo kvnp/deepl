@@ -38,3 +38,47 @@
     
         Epoch: 1
         Elapsed: [0:00:15.227995]  batch: 1  d_loss: -0.450853  g_loss: 3.245314
+
+
+- Pix2Pix
+  - Pix2Pix unterstüzt zwei Methoden: train und generate
+  - Für beide Methoden sind die Argumente -i/--input (), -o/--output, -w/--weights notwendig, siehe folgende Ordner-Struktur.
+
+    ```
+    .
+    ├── input
+    │   ├── drawing
+    │   │   ├── 1.png
+    │   │   └── 2.png
+    │   └── original
+    │       ├── 1.png
+    │       └── 2.png
+    ├── output
+    └── weights
+        ├── best_weights.h5
+        └── generator.h5
+
+    6 directories, 6 files
+    ```
+    - Im übergebenen Input-Ordner erwartet das Modell die Unterordner drawing und original mit den jeweiligen Tiles des Kartensatzes und den dazugehörigen Zeichnungen.
+    - Im Output-Ordner werden die Samples sowie die CSV-Dateien mit den Losses angelegt.
+    - Im Weights-Ordner werden die Gewichte abgelegt und ggf. bereits vorhandene Gewichte mit den Dateinamen bes_weights.h5 und generator.h5 geladen.
+
+  - Bei der Methode generate wird zusätzlich ein Ordner generated im Ordner output angelegt, der die Zeichnungen aus input/drawing in Kartendaten umwandelt. Der Ordner input/original ist in dem Fall nicht erforderlich.
+
+  - Beispiel
+    ```
+    python main.py \
+      --model pix2pix \
+      --method train
+      -i ./dataset \
+      -o ./ \
+      -w ./weights
+
+    python main.py \
+      --model pix2pix \
+      --method generate
+      -i ./dataset \
+      -o ./ \
+      -w ./weights
+    ```

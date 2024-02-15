@@ -29,14 +29,14 @@ def parse_epochs(epochs: str):
 def main():
     parser = ArgumentParser(description="Zelda SNES map generation using various GANs")
     parser.add_argument(
-        '-model',
+        '--model',
         choices=['pix2pix', 'progan', 'sngan'],
         help='Specify the model (pix2pix, progan, sngan)',
         required=True
     )
 
     parser.add_argument(
-        '-method',
+        '--method',
         choices=['train', 'test', 'generate'],
         help='Specify the method (train, test, generate)',
         required=True
@@ -53,11 +53,12 @@ def main():
         required=True
     )
 
-    parser.add_argument(
-        '-w', '--weights',
-        help='Specify the folder containing weight files',
-        required=False
-    )
+    if parser.parse_args().model == 'pix2pix':
+        parser.add_argument(
+            '-w', '--weights',
+            help='Specify the folder containing weight files',
+            required=True
+        )
 
     parser.add_argument(
         "-f", "--fade_ins",
