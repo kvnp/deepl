@@ -1,1 +1,0 @@
-epoch,train step,loss d_fake,loss d_real,fake_acc,real_acc,loss fool,loss g
