@@ -17,7 +17,7 @@ SNGAN
     - Input kann hier ausgelassen werden. Stattdessen sollen die Trainingsdaten in dem Ordner "data/train/train_SNGAN/" abgelegt werden. Dafür sollten die Bilder aus der vorherigen Erzeugung des Datensetzt mitsamt der Labeldatei in diesem Ordner abgelegt werden
 
     - Beispiel:
-      -python main.py -model="sngan" -method="train" --output="_gewünschter Pfad_" --epochs=20 --device="cuda" --num_classes=8 --latent_size=128
+        python main.py -model="sngan" -method="train" --output="_gewünschter Pfad_" --epochs=20 --device="cuda" --num_classes=8 --latent_size=128
 
   - Die notwendigen Parameter für *generate* sind wie folgt:
     - "--output":    Der Ordner in dem die Bilder gespeichert werden.
@@ -28,7 +28,7 @@ SNGAN
     - "latent_size": Gibt die Größe des Latenten Raums des Generators an.
 
     - Beispiel:
-      - python main.py -model="sngan" -method="generate" --output="_gewünschter Pfad_" --num_pics=8 --device="cuda" --num_classes=8 --latent_size=128
+        python main.py -model="sngan" -method="generate" --output="_gewünschter Pfad_" --num_pics=8 --device="cuda" --num_classes=8 --latent_size=128
 
 
 - ProGAN
