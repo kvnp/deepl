@@ -1,7 +1,7 @@
 import torch
 import torchvision.utils as vutils
 import os
-import generator as gen
+import models.CGAN.generator as gen
 import copy
 from torch.nn.functional import interpolate
 
@@ -53,12 +53,13 @@ class ImageGenerator:
                 vutils.save_image(image, os.path.join(self.output_dir, f"generated_image_{i+1}.png"), normalize=True)
 
 
-if __name__ == "__main__":
-    generator_path = 'C:/DeepL/models_9/GAN_GEN_6.pth'
+def generate(num_pics=50, gen_path="../../data/pretrained/ProGAN/GAN_GEN_6.pth", output_dir="./pictures_outputs"):
     depth = 7
     latent_size = 512
-    output_dir = '../generated_images'
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-    image_generator = ImageGenerator(generator_path, depth, latent_size, output_dir, device, use_ema=True)
-    image_generator.generate_and_save_images(num_images=50, scale_factor=1)
+    print("Generator initialization")
+    image_generator = ImageGenerator(gen_path, depth, latent_size, output_dir, device, use_ema=True)
+    print("Generator ready, pictures generation")
+    image_generator.generate_and_save_images(num_images=int(num_pics), scale_factor=1)
+    print("Pictures generation complete!")
