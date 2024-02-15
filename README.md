@@ -1,4 +1,36 @@
 # Nutzung
+-Erstellung eines Datensets
+  -Für die Erstellung eines Datensets muss lediglich eine JSON datei angelegt werden, in der man notiert wird welche klasse wie viele Bilder bekommen soll.
+  -Als Beispiel steht die example_config.json in utils/dataprocessor zur verfügung
+  -Anschließend muss nurnoch wie folgt die main.py gestartet werden
+    -python main.py -model="no_model" -method="make_data" --input="_hier den pfad zur JSON_" --output= "_hier den Pfad angeben in dem die daten enden_"
+
+-SNGAN
+  -Unterstützt zwei methods: "train" und "generate"
+  -Die notwendigen Parameter für *train* sind wie folgt:
+    -"--output":    Der Ordner in dem die Models und sample gespeichert werden.
+    -"--epochs":    Gibt die Anzahl an zu trainierenden Epochen.
+    -"--device":    Das Gerät auf dem Trainiert wird [cpu oder cuda]
+    -"--class_num": Gibt die Anzahl an Bildklassen an, die im Datenpool vorhanden sind.
+    -"latent_size": Gibt die Größe des Latenten Raums des Generators an.
+
+    -Input kann hier ausgelassen werden. Stattdessen sollen die Trainingsdaten in dem Ordner "data/train/train_SNGAN/" abgelegt werden. Dafür sollten die Bilder aus der vorherigen Erzeugung des Datensetzt mitsamt der Labeldatei in diesem Ordner abgelegt werden
+
+    -Beispiel:
+      -python main.py -model="sngan" -method="train" --output="_gewünschter Pfad_" --epochs=20 --device="cuda" --num_classes=8 --latent_size=128
+
+  -Die notwendigen Parameter für *generate* sind wie folgt:
+    -"--output":    Der Ordner in dem die Bilder gespeichert werden.
+    -"--weights":   Das State Dict eines Trainierten Generators.
+    -"--num_pics":  Gibt die Anzahl der zu erzeugenden Bilder.
+    -"--device":    Das Gerät auf dem Trainiert wird [cpu oder cuda]
+    -"--num_classes": Gibt die Anzahl an Bildklassen an von denen erzeugt werden soll.
+    -"latent_size": Gibt die Größe des Latenten Raums des Generators an.
+
+    -Beispiel:
+      -python main.py -model="sngan" -method="generate" --output="_gewünschter Pfad_" --num_pics=8 --device="cuda" --num_classes=8 --latent_size=128
+
+
 - ProGAN
   - ProGAN unterstüzt zwei Methoden: train und generate
   - Für beide Methoden reicht es die notwendigen Parameter zu definieren

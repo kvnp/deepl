@@ -31,7 +31,7 @@ label_dict = {"ruins": 0,
             }
 
 def create_dataset(config_path, dest_dir):
-    image_data_location = "data\\dataprocessor\\source_images\\class_image_data.json"
+    image_data_location = "utils\\dataprocessor\\source_images\\class_image_data.json"
     clss_img_data = json.load(open(image_data_location)) 
     
     configs = json.load(open(config_path))

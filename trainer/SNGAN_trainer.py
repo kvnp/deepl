@@ -10,7 +10,7 @@ from tqdm import tqdm
 from torch.autograd import Variable
 
 from utils.evaluation import make_graph_sngan
-import data.train.train_SNGAN.zelda_dataset as Z_Data
+import data.train.zelda_dataset as Z_Data
 import models.SNGAN.SNGAN_Zelda as ZelNet
 
 class trainer():
