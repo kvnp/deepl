@@ -1,11 +1,11 @@
 # Nutzung
-- Erstellung eines Datensets
-  -Für die Erstellung eines Datensets muss lediglich eine JSON datei angelegt werden, in der man notiert wird welche klasse wie viele Bilder bekommen soll.
+Erstellung eines Datensets
+  - Für die Erstellung eines Datensets muss lediglich eine JSON datei angelegt werden, in der man notiert wird welche klasse wie viele Bilder bekommen soll.
   - Als Beispiel steht die example_config.json in utils/dataprocessor zur verfügung
   - Anschließend muss nurnoch wie folgt die main.py gestartet werden
     -python main.py -model="no_model" -method="make_data" --input="_hier den pfad zur JSON_" --output= "_hier den Pfad angeben in dem die daten enden_"
 
-- SNGAN
+SNGAN
   - Unterstützt zwei methods: "train" und "generate"
   - Die notwendigen Parameter für *train* sind wie folgt:
     - "--output":    Der Ordner in dem die Models und sample gespeichert werden.
@@ -28,7 +28,7 @@
     - "latent_size": Gibt die Größe des Latenten Raums des Generators an.
 
     - Beispiel:
-      -python main.py -model="sngan" -method="generate" --output="_gewünschter Pfad_" --num_pics=8 --device="cuda" --num_classes=8 --latent_size=128
+      - python main.py -model="sngan" -method="generate" --output="_gewünschter Pfad_" --num_pics=8 --device="cuda" --num_classes=8 --latent_size=128
 
 
 - ProGAN
