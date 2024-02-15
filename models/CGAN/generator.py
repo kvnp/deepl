@@ -10,10 +10,10 @@ import copy
 import numpy as np
 import torch as th
 
-from custom_layers import GenInitialBlock, _equalized_conv2d, GenGeneralConvBlock, DisFinalBlock, DisGeneralConvBlock, \
+from models.CGAN.custom_layers import GenInitialBlock, _equalized_conv2d, GenGeneralConvBlock, DisFinalBlock, DisGeneralConvBlock, \
     ConDisFinalBlock, update_average
-from data_tools import get_data_loader
-from losses import WGAN_GP, StandardGAN, LSGAN, LSGAN_SIGMOID, HingeGAN, RelativisticAverageHingeGAN, GANLoss
+from models.CGAN.unnecessary.data_tools import get_data_loader
+from models.CGAN.losses import WGAN_GP, StandardGAN, LSGAN, LSGAN_SIGMOID, HingeGAN, RelativisticAverageHingeGAN, GANLoss
 
 
 # ========================================================================================
