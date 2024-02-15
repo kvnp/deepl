@@ -1,4 +1,4 @@
-from utils import DataGenerator, get_discriminator, \
+from models.PIX2PIX.utils import DataGenerator, get_discriminator, \
     get_generator_unet, get_generator_training_model
 
 from keras.optimizers import Adam
@@ -174,8 +174,8 @@ class Pix2pix:
                     f.savefig(os.path.join(self.output_path, 'samples', f'{i}', f'{i}_{train_step}.png'))
                     plt.close(f)
 
-                    loss_fake, fake_acc = self.discriminator.train_on_batch(np.concatenate((imgA, fakeB), axis=-1), fake)
-                    loss_real, real_acc = self.discriminator.train_on_batch(np.concatenate((imgA, imgB), axis=-1), real)
+                    loss_fake, fake_acc = self.discriminator.train_on_batch(np.concatenate((imgA, fakeB), axis=-1), self.fake)
+                    loss_real, real_acc = self.discriminator.train_on_batch(np.concatenate((imgA, imgB), axis=-1), self.real)
                     if train_step % 20 == 0:
                         print('epoch:{} train step:{}, loss d_fake:{:.2}, loss d_real:{:.2}, fake_acc:{:.2}, real_acc:{:.2}'.format(i + 1, train_step, loss_fake, loss_real, fake_acc, real_acc))
                         self.discriminator_dict['train_step'].append(train_step * (i + 1))
@@ -226,6 +226,34 @@ class Pix2pix:
         except KeyboardInterrupt:
             print("Interrupt received, stopping saving data")
 
+    def generate(self):
+        image_id_list = os.listdir(os.path.join(self.train_path, "drawing"))
+
+        gen = DataGenerator(
+            image_id_list,
+            self.train_path,
+            batch_size=2,
+            image_size=self.image_size,
+            channels=3
+        )
+
+        output = os.path.join(self.output_path, 'generated')
+        if not os.path.exists(output):
+            os.mkdir(output)
+
+        for i in range(len(gen)):
+            X, y = gen.__getitem__(i)
+            y_pred = self.generator.predict(X)
+
+            for j in range(0, 2):
+                f, axes = plt.subplots(1, 3, figsize=(15, 10))
+                axes[0].imshow(y[j])
+                axes[1].imshow(y_pred[j])
+                axes[2].imshow(X[j])
+
+                length = len(os.listdir(output))
+                f.savefig(os.path.join(output, f'{length}.png'))
+                plt.close(f)
 
     def _save_plots(self):
         plt.plot(self.discriminator_dict['train_step'], self.discriminator_dict['loss d_fake'], label='loss d_fake')
@@ -256,6 +284,3 @@ class Pix2pix:
 
         f.savefig(file)
         plt.close(f)
-
-    def generate(self, input_path, output_path, weight_path):
-        pass

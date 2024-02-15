@@ -34,11 +34,12 @@ def main():
         required=True
     )
 
-    parser.add_argument(
-        '-w', '--weights',
-        help='Specify the folder containing weight files',
-        required=False
-    )
+    if parser.parse_args().model == 'pix2pix':
+        parser.add_argument(
+            '-w', '--weights',
+            help='Specify the folder containing weight files',
+            required=True
+        )
 
     parser.add_argument(
         "-f", "--fade_ins",
@@ -144,7 +145,7 @@ def main():
 
         if args.method == 'train':
             model.train()
-        elif args.method == 'generate' and args.weights:
+        elif args.method == 'generate':
             model.generate()
     
     
