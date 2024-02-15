@@ -42,5 +42,14 @@ def main():
     if args.weights:
         print(f"Weights directory: {args.weights}")
 
+    if args.model == 'pix2pix':
+        from models.PIX2PIX.pix2pix import Pix2pix
+        model = Pix2pix(args.input, args.output, args.weights)
+
+        if args.method == 'train':
+            model.train()
+        elif args.method == 'generate' and args.weights:
+            model.generate()
+
 if __name__ == "__main__":
     main()

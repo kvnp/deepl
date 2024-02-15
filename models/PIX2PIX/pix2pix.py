@@ -141,7 +141,7 @@ class Pix2pix:
         }
         try:
             for i in range(self.epochs):
-                os.mkdir("./samples/{}".format(i))
+                os.mkdir(os.path.join(self.output_path, "./samples/{}".format(i)))
 
                 train_step = 0
                 for imgA, imgB in self.train_image_generator:
