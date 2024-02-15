@@ -1,7 +1,5 @@
-import cv2
 import numpy as np
 import matplotlib.pyplot as plt
-import json
 import torch
 import torchvision
 from collections import OrderedDict
@@ -10,36 +8,43 @@ from models.SNGAN.SNGAN_Zelda import Generator
 from torch.autograd import Variable
 import torchvision.transforms.functional as F
 
-label_dict = {"ruins": 0,
-            "waterfall": 1,
-            "desert": 2,
-            "village": 3,
-            "woods": 4,
-            "sky_island": 5
-        }
+def make_graph_sngan(result_dir, start_epoch = 0):
+    with open(result_dir+"\\logs.pkl", 'rb') as f:
+        stats = pickle.load(f)
+    
+    g_loss  = np.array(stats["g_loss"])
+    d_loss  = np.array(stats["d_loss"])
+    gr_pen  = np.array(stats["grad_pen"])
+    x_epoch = np.arange(start_epoch, start_epoch+len(g_loss))
+    
+    g_line = plt.plot(x_epoch, g_loss, color="red")
+    d_line = plt.plot(x_epoch, d_loss, color="blue")
+    gp_line= plt.plot(x_epoch, gr_pen, color="green")
+    
+    plt.xlim(xmin= 0)
+    plt.xlabel("epoch")
+    plt.ylabel("loss")
+    plt.grid(True)
+    
+    plt.legend(["Loss Generator", "Loss Discriminator", "Gradient Penalty"])
+    
+    plt.show()
+    
+    g_loss  = np.array(stats["g_loss"])
+    d_loss  = np.array(stats["d_loss"])
+    gr_pen  = np.array(stats["grad_pen"])
+    x_epoch = np.arange(start_epoch, start_epoch+len(g_loss))    
+    
+    g_line = plt.plot(x_epoch, g_loss, color="red")
+    d_line = plt.plot(x_epoch, d_loss, color="blue")
+    gp_line= plt.plot(x_epoch, gr_pen, color="green")
+    
+    plt.xlim(xmin= 0)
+    plt.xlabel("epoch")
+    plt.ylabel("loss")
+    plt.grid(True)
+    
+    plt.legend(["Loss Generator", "Loss Discriminator", "Gradient Penalty"])
+    
+    plt.savefig(result_dir+"\\traing_statistics.png")
 
-class_definitions = ["ruins","waterfall","desert","village","woods","sky_island"]
-
-def testbilder():
-    use_cuda = True
-    batch_size = 50
-    output_dir = "utils\\test"
-    num_classes = 6
-    latent_size = 128
-    gen = Generator(latent_size, num_classes).to("cuda")
-    gen.load_state_dict(torch.load("data\\pretrained\\SNGAN\\gen_epoch_0890.pytorch"))
-    
-    img_batch = []
-    labels = []
-    for i in range(batch_size):
-        labels_fake = Variable(torch.LongTensor(np.random.randint(0, num_classes, 1))).to("cuda")
-        rand_X = torch.FloatTensor(np.random.randn(1, latent_size)).to("cuda")
-    
-        label = class_definitions[int(labels_fake)]
-        labels.append(label)
-        print(f"class {i} is: {label}")      
-        img_batch.append(gen(rand_X, labels_fake).detach())
-    
-    for i, img in enumerate(img_batch):
-        torchvision.utils.save_image(img_batch[i], f"{output_dir}/{i:03}_{labels[i]}.png",
-                                            nrow=10, padding=5, normalize=True, value_range=(-1.0, 1.0))

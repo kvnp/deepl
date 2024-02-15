@@ -3,13 +3,17 @@ import pandas as pd
 from torchvision.io import read_image
 from torch.utils.data import Dataset
 
-label_dict = {"ruins": 0,
-              "waterfall": 1,
-              "desert": 2,
-              "village": 3,
-              "woods": 4,
-              "sky_island": 5
-            }
+
+# reference from image processor
+# label_dict = {"ruins": 0,
+#               "waterfall": 1,
+#               "desert": 2,
+#               "village": 3,
+#               "woods": 4,
+#               "skyisland": 5,
+#               "mountains": 6,
+#               "central" : 7
+#             }
 
 class Zelda_SNES_Map(Dataset):
     def __init__(self, annotations_file, img_dir, transform=None, target_transform=None):

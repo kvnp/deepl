@@ -1,0 +1,13 @@
+{
+    "ruins"     : [{"path": "data\\dataprocessor\\source_images\\Zelda_Ruins.png", "portion": 1.0}],
+    "waterfall" : [{"path": "data\\dataprocessor\\source_images\\Zelda_Cave_Exit_Waterfall.png", "portion": 0.35},
+                   {"path": "data\\dataprocessor\\source_images\\Zelda_Waterfall.png", "portion": 0.5},
+                   {"path": "data\\dataprocessor\\source_images\\Zelda_Waterfall_2.png", "portion": 0.15}],
+    "desert"    : [{"path": "data\\dataprocessor\\source_images\\Zelda_Ruins.png", "portion": 1.0}],
+    "village"   : [{"path": "data\\dataprocessor\\source_images\\Zelda_Village.png", "portion": 1.0}],
+    "woods"     : [{"path": "data\\dataprocessor\\source_images\\Zelda_Lost_Woods_1.png", "portion": 0.65},
+                   {"path": "data\\dataprocessor\\source_images\\Zelda_Lost_Woods_2.png", "portion": 0.35}],
+    "skyisland" : [{"path": "data\\dataprocessor\\source_images\\Zelda_Sky_Island.png", "portion": 1.0}],
+    "mountains" : [{"path": "data\\dataprocessor\\source_images\\Zelda_Mountains.png", "portion": 1.0}],
+    "central"   : [{"path": "data\\dataprocessor\\source_images\\Zelda_Central_Hyrule.png", "portion": 1.0}]
+}
