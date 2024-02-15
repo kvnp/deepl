@@ -105,22 +105,13 @@ def main():
             print("bin da")
         if args.method == "test":
             print("bin da")
-    elif args.model == "pix2pix":
-        if args.method == "train":
-            print("bin da")
-        if args.method == "generate":
-            print("bin da")
-        if args.method == "test":
-            print("bin da")
-
-
     if args.model == 'pix2pix':
         from models.PIX2PIX.pix2pix import Pix2pix
         model = Pix2pix(args.input, args.output, args.weights)
 
         if args.method == 'train':
             model.train()
-        elif args.method == 'generate' and args.weights:
+        elif args.method == 'generate':
             model.generate()
 
 def init_SNGAN_training(args):

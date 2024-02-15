@@ -1,6 +1,7 @@
 from keras.layers import Input, Conv2D, BatchNormalization, \
     Activation, Dropout, Add, Conv2DTranspose, LeakyReLU, \
     Concatenate
+
 from keras.initializers import RandomNormal, Zeros
 from keras.utils import Sequence
 from keras import Model
