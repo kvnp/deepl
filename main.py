@@ -94,7 +94,7 @@ def main():
 
     if args.model == "progan":
         if args.method == "train":
-            training(args.epochs, args.fade_ins, args.output, args.input)
+            training(parse_epochs(args.epochs), parse_fade_ins(args.fade_ins), args.output, args.input)
         if args.method == "generate":
             generate(args.num_pics, args.input, args.output)
     elif args.model == "sngan":
